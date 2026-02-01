@@ -29,6 +29,15 @@
             background: linear-gradient(135deg, #2C1810 0%, #D4A574 100%);
         }
     </style>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
 </head>
 <body class="bg-[#F5F1E8] text-[#3D2817]">
 
@@ -132,6 +141,64 @@
             </div>
         </div>
     </section>
+
+    <section class="py-32 px-6 bg-[#2C1810]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-[#D4A574] font-bold tracking-[0.2em] uppercase text-sm">Transparansi Produksi</span>
+                <h2 class="text-4xl md:text-5xl font-black mb-4 text-white">Galeri Proses Produksi</h2>
+                <p class="text-[#D4A574]/80 max-w-2xl mx-auto">Lihat langsung bagaimana produk Kulo Snack dibuat dengan standar higienis dan kualitas terbaik</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Galeri 1 -->
+                <div class="group relative h-[300px] overflow-hidden rounded-2xl bg-[#F5F1E8]/10 border border-[#D4A574]/30 hover:border-[#E8704A]/50 transition">
+                    <div class="w-full h-full bg-gradient-to-br from-[#D4A574]/20 to-[#E8704A]/20 flex items-center justify-center">
+                        <div class="text-center">
+                            <p class="text-5xl mb-3">🥬</p>
+                            <p class="text-white font-bold">Pemilihan Bahan Baku</p>
+                            <p class="text-[#D4A574]/70 text-sm mt-2">Bahan pilihan berkualitas tinggi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeri 2 -->
+                <div class="group relative h-[300px] overflow-hidden rounded-2xl bg-[#F5F1E8]/10 border border-[#D4A574]/30 hover:border-[#E8704A]/50 transition">
+                    <div class="w-full h-full bg-gradient-to-br from-[#D4A574]/20 to-[#E8704A]/20 flex items-center justify-center">
+                        <div class="text-center">
+                            <p class="text-5xl mb-3">🧼</p>
+                            <p class="text-white font-bold">Pembersihan & Persiapan</p>
+                            <p class="text-[#D4A574]/70 text-sm mt-2">Proses higienis dan teliti</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeri 3 -->
+                <div class="group relative h-[300px] overflow-hidden rounded-2xl bg-[#F5F1E8]/10 border border-[#D4A574]/30 hover:border-[#E8704A]/50 transition">
+                    <div class="w-full h-full bg-gradient-to-br from-[#D4A574]/20 to-[#E8704A]/20 flex items-center justify-center">
+                        <div class="text-center">
+                            <p class="text-5xl mb-3">🔥</p>
+                            <p class="text-white font-bold">Proses Pengolahan</p>
+                            <p class="text-[#D4A574]/70 text-sm mt-2">Teknik tradisional modern</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeri 4 -->
+                <div class="group relative h-[300px] overflow-hidden rounded-2xl bg-[#F5F1E8]/10 border border-[#D4A574]/30 hover:border-[#E8704A]/50 transition">
+                    <div class="w-full h-full bg-gradient-to-br from-[#D4A574]/20 to-[#E8704A]/20 flex items-center justify-center">
+                        <div class="text-center">
+                            <p class="text-5xl mb-3">📦</p>
+                            <p class="text-white font-bold">Pengemasan & QC</p>
+                            <p class="text-[#D4A574]/70 text-sm mt-2">Kontrol kualitas ketat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produk" class="py-32 px-6 bg-[#F5F1E8]">
         <div class="max-w-7xl mx-auto">
             <div class="mb-20 text-center md:text-left">
                 <h3 class="text-4xl md:text-5xl font-black mb-4 uppercase text-[#3D2817]">Koleksi Produk</h3>
@@ -147,6 +214,14 @@
                     <div class="absolute bottom-10 left-10 right-10">
                         <h4 class="text-3xl font-black mb-2 uppercase italic text-white">Keripik Bonggol Pisang</h4>
                         <p class="text-gray-200 max-w-md text-sm mb-4">Inovasi olahan serat alami pohon pisang Desa Gombang yang renyah dan menyehatkan.</p>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-gray-300 text-xs ml-2">(48 review)</span>
+                        </div>
                         <div class="flex justify-between items-center">
                             <span class="text-2xl font-bold text-[#E8704A]">Rp 15.000</span>
                             <a href="https://wa.me/6282265357723?text=Saya%20ingin%20pesan%20Keripik%20Bonggol%20Pisang%20(Rp%2015.000)" class="bg-[#E8704A] text-white px-6 py-2 rounded-full font-bold text-sm hover:bg-[#D4A574] transition">Pesan</a>
@@ -164,7 +239,15 @@
                             <span class="w-3 h-3 rounded-full bg-orange-200 border border-white/20"></span>
                         </div>
                         <h4 class="text-xl font-bold uppercase mb-1 text-white">Pisang Lumer</h4>
-                        <p class="text-xs text-gray-200 mb-4 tracking-wider uppercase">Matcha • Cokelat • Tiramisu</p>
+                        <p class="text-xs text-gray-200 mb-3 tracking-wider uppercase">Matcha • Cokelat • Tiramisu</p>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-gray-300 text-xs ml-2">(32 review)</span>
+                        </div>
                         <div class="flex justify-between items-center">
                             <span class="text-xl font-bold text-[#E8704A] font-mono">Rp 10.000</span>
                             <a href="https://wa.me/6282265357723?text=Saya%20ingin%20pesan%20Pisang%20Lumer%20(Rp%2010.000)" class="bg-[#E8704A] text-white px-4 py-1 rounded-full font-bold text-xs hover:bg-[#D4A574] transition">Pesan</a>
@@ -177,6 +260,14 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     <div class="absolute bottom-10 left-10 right-10 text-center md:text-left">
                         <h4 class="text-xl font-bold uppercase mb-2 text-white">Peyek Kacang</h4>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-gray-300">⭐</span>
+                            <span class="text-gray-300 text-xs ml-2">(25 review)</span>
+                        </div>
                         <div class="flex justify-between items-center">
                             <span class="text-xl font-bold text-[#E8704A] font-mono">Rp 10.000</span>
                             <a href="https://wa.me/6282265357723?text=Saya%20ingin%20pesan%20Peyek%20Kacang%20(Rp%2010.000)" class="bg-[#E8704A] text-white px-4 py-1 rounded-full font-bold text-xs hover:bg-[#D4A574] transition">Pesan</a>
@@ -189,6 +280,14 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     <div class="absolute bottom-10 left-10 right-10">
                         <h4 class="text-xl font-bold uppercase mb-2 text-white">Peyek Rebon</h4>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-gray-300 text-xs ml-2">(19 review)</span>
+                        </div>
                         <div class="flex justify-between items-center">
                             <span class="text-xl font-bold text-[#E8704A] font-mono">Rp 10.000</span>
                             <a href="https://wa.me/6282265357723?text=Saya%20ingin%20pesan%20Peyek%20Rebon%20(Rp%2010.000)" class="bg-[#E8704A] text-white px-4 py-1 rounded-full font-bold text-xs hover:bg-[#D4A574] transition">Pesan</a>
@@ -201,6 +300,14 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     <div class="absolute bottom-10 left-10 right-10 text-center">
                         <h4 class="text-xl font-bold uppercase mb-2 text-white">Peyek Kedelai</h4>
+                        <div class="flex gap-1 mb-3 justify-center">
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-gray-300">⭐</span>
+                            <span class="text-gray-300 text-xs ml-2">(22 review)</span>
+                        </div>
                         <div class="flex justify-between items-center">
                             <span class="text-xl font-bold text-[#E8704A] font-mono">Rp 10.000</span>
                             <a href="https://wa.me/6282265357723?text=Saya%20ingin%20pesan%20Peyek%20Kedelai%20(Rp%2010.000)" class="bg-[#E8704A] text-white px-4 py-1 rounded-full font-bold text-xs hover:bg-[#D4A574] transition">Pesan</a>
@@ -216,6 +323,14 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                     <div class="absolute bottom-10 left-10 right-10">
                         <h4 class="text-xl font-bold uppercase mb-2 text-white">Manggleng Singkong</h4>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-[#E8704A]">⭐</span>
+                            <span class="text-gray-300 text-xs ml-2">(28 review)</span>
+                        </div>
                         <div class="flex justify-between items-center">
                             <span class="text-xl font-bold text-[#E8704A] font-mono">Rp 10.000</span>
                             <a href="https://wa.me/6282265357723?text=Saya%20ingin%20pesan%20Manggleng%20Singkong%20(Rp%2010.000)" class="bg-[#E8704A] text-white px-4 py-1 rounded-full font-bold text-xs hover:bg-[#D4A574] transition">Pesan</a>
@@ -499,7 +614,58 @@
         </div>
     </section>
 
-    <footer class="py-20 border-t border-[#D4A574]/20 bg-[#2C1810] text-center">
+    <section class="py-32 px-6 bg-[#F5F1E8]">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-[#E8704A] font-bold tracking-[0.2em] uppercase text-sm">Berita & Tips</span>
+                <h2 class="text-4xl md:text-5xl font-black mb-4 text-[#3D2817]">Blog & Artikel</h2>
+                <p class="text-[#3D2817]/70 max-w-2xl mx-auto">Tips, resep, dan berita terbaru seputar produk Kulo Snack</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Blog 1 -->
+                <article class="bg-white rounded-2xl overflow-hidden border border-[#D4A574]/20 hover:border-[#E8704A]/50 hover:shadow-lg transition">
+                    <div class="h-48 bg-gradient-to-br from-[#D4A574]/30 to-[#E8704A]/30 flex items-center justify-center">
+                        <p class="text-6xl">🥗</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-[#E8704A] text-sm font-bold mb-2">Tips & Trik</p>
+                        <h3 class="text-xl font-black text-[#3D2817] mb-3">Cara Menyimpan Snack Agar Tetap Renyah</h3>
+                        <p class="text-[#3D2817]/70 text-sm mb-4">Pelajari tips dan trik menyimpan camilan Kulo Snack agar tetap renyah dan tahan lama di rumah Anda.</p>
+                        <a href="#" class="text-[#E8704A] font-bold text-sm hover:text-[#D4A574] transition">Baca Selengkapnya →</a>
+                    </div>
+                </article>
+
+                <!-- Blog 2 -->
+                <article class="bg-white rounded-2xl overflow-hidden border border-[#D4A574]/20 hover:border-[#E8704A]/50 hover:shadow-lg transition">
+                    <div class="h-48 bg-gradient-to-br from-[#D4A574]/30 to-[#E8704A]/30 flex items-center justify-center">
+                        <p class="text-6xl">🍌</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-[#E8704A] text-sm font-bold mb-2">Produk Unggulan</p>
+                        <h3 class="text-xl font-black text-[#3D2817] mb-3">Manfaat Bonggol Pisang untuk Kesehatan</h3>
+                        <p class="text-[#3D2817]/70 text-sm mb-4">Ketahui manfaat kesehatan dari bonggol pisang yang menjadi bahan utama Keripik Bonggol Pisang kami.</p>
+                        <a href="#" class="text-[#E8704A] font-bold text-sm hover:text-[#D4A574] transition">Baca Selengkapnya →</a>
+                    </div>
+                </article>
+
+                <!-- Blog 3 -->
+                <article class="bg-white rounded-2xl overflow-hidden border border-[#D4A574]/20 hover:border-[#E8704A]/50 hover:shadow-lg transition">
+                    <div class="h-48 bg-gradient-to-br from-[#D4A574]/30 to-[#E8704A]/30 flex items-center justify-center">
+                        <p class="text-6xl">🎉</p>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-[#E8704A] text-sm font-bold mb-2">Berita</p>
+                        <h3 class="text-xl font-black text-[#3D2817] mb-3">Kulo Snack Hadir di Pasar Lokal</h3>
+                        <p class="text-[#3D2817]/70 text-sm mb-4">Kabar gembira! Produk Kulo Snack kini tersedia di berbagai toko dan pasar tradisional di Yogyakarta.</p>
+                        <a href="#" class="text-[#E8704A] font-bold text-sm hover:text-[#D4A574] transition">Baca Selengkapnya →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 border-t border-[#D4A574]/20 bg-[#2C1810] text-center"></footer>
         <p class="text-[#D4A574]/60 text-sm uppercase tracking-[0.4em]">© 2026 KKN DESA GOMBANG — PONJONG</p>
     </footer>
 
